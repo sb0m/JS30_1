@@ -1,0 +1,68 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------
+test {
+    #1c2124
+    color: #424c55; rgba(66, 76, 85, 0.5);
+    color: #2e86ab;
+    color: #084c61;
+    color: #a1d2ce;
+    color: #e7ecef;
+}*/
+
+
+body{
+	font: 11px 'Open Sans', sans-serif;
+	color: #ecebe4;
+	text-align:center;
+    overflow:auto;
+    background-color: #a1d2ce;
+    min-height:100%;
+    background-image: url("bg.JPG");
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+
+div.keys {
+    height: 20%;
+    margin-top: 30%;
+    width: 100%;
+}
+
+div.key {
+    height: 100%;
+    width: 50px;
+    float:left;
+    color: #084c61;
+    text-shadow: 1px 1px #1c2124;
+    font-size: 5em;
+    background-color: rgba(66, 76, 85, 0.8);
+    margin-left: 0.5em;
+    border: 2px solid #424c55;
+    transition: all 1s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border: 2px solid #2e86ab;
+    box-shadow: 0 0 10px #a1d2ce;
+}
+
+.sound{
+    font-size: 0.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #a1d2ce;
+}
+
